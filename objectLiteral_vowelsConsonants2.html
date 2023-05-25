@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		
+		<script src="objectLiteral2_js/objectLiteral_vowelsConsonants2_Functions.js"></script>
+		<script src="objectLiteral2_js/objectLiteral_vowelsConsonants2_ObjectSetup.js">// This script link must be below the _Functions.js link</script>
+		
+	</head>
+	<body>
+		<main></main>
+		<script>
+			
+
+			document.write(`<h1>The string entered is: ${sequence}`);
+
+			for (var i = 0; i < infoArray.length; i++) {
+				renderArrayElements(i);
+
+				/*
+				The above funciton, purposefully designed to receive "i" as its new parameter.  All peekaboo will take on the value of i. 
+				renderArrayElements(peekaboo) ... same as ... renderArrayElements(i)
+					infoArray[peekaboo] ... same as ... infoArray[i]
+
+				You can equally choose to execute the code below, in the local scope of the for loop.  
+				Notice that here, infoArray[i] is written to match a typical for loop declaration (var i = 0; i < infoArray.length; i++).  
+
+				document.write("<h2>" + infoArray[i].generalText + "</h2>");
+				document.write("<p>" + infoArray[i].letters + "</p>");
+				document.write("<p>" + infoArray[i].letters2 + "</p>");
+				document.write("<p>" + infoArray[i].counter + "</p>");
+				*/
+			}
+
+		</script>
+	</body>
+</html>
